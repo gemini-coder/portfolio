@@ -1,6 +1,6 @@
 import './globals.css';
-import TopNavBar from './layout/TopNavbar';
 
+import TopNavBar from './layout/TopNavbar';
 export const metadata = {
   title: 'Gemini Coder Portfolio',
   description: 'Gemini Coder Portfolio',
@@ -13,7 +13,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>
+      <body className={`h-full`}>
         <TopNavBar />
         {children}
       </body>
